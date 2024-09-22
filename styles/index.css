@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* añadir fuente de google fonts */
+@import url(https://fonts.google.com/specimen/Sofadi+One);
+
+
+:root {
+    /* declaración de variables */
+    --primaryColor: #ffffff;
+    --backgroundColor: #dfafbd;
+    --textColor: #000000;
+    --tipography: Segoe UI;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+/* ----------------BODY------------------------------------ */
+
+body{
+    /* ancho de la pantalla */
+    width: 100vw;
+    /* alto de la pantalla */
+    height: 100vh;
+    /* para respetar las dimensiones */
+    box-sizing: border-box;
+    /* imagen del fondo */
+    background-image: url("/assets/background.jpg");
+    /* repeticion de la imagen */
+    background-repeat: no-repeat;
+    /* tamaño de la imagen */
+    background-size: 100%;
+    /* posicion del fondo */
+    background-position: center;
+    /* tipografia */
+    font-family: var(--tipography);
+    /* gestión del scroll en el eje "X" */
+    overflow-x: hidden;
+    /* gestión del scroll en el eje "Y" */
+    overflow-y: hidden;
+    /* tamaño de la fuente */
+    font-size: 11px;
+
+}
+
+
+
+/* --------------------------BODY------------------------------ */
+
+
+
+/* -----------------------HEADER--------------------------------------- */
+
+header{
+    /* border: solid red; */
+    width: 100vw;
+    height: auto;
+
+}
+
+/* -----------------------HEADER--------------------------------------- */
+
+
+
+/* -----------------------MAIN--------------------------------------- */
+main{
+    width: 100vw;
+    /* height: 100vh; */
+    /* border: solid red; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contentSectiob
+
+/* -----------------------MAIN--------------------------------------- */
+
+
+
+/* -----------------------BACKGROUND--------------------------------------- */
+
+.containerButton .btn {
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+    padding: 10px 30px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 44%;
+    cursor: pointer;
+    border: none;
+    /* border: solid red; */
+}
+
+.btn:hover{
+    background-color: var(--textColor);
+    color: var(--backgroundColor);
+}
